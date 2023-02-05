@@ -1,0 +1,36 @@
+.catalogue {
+    position: relative;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width:100%;
+    margin-top: 150px;
+
+    .card {
+        height:100%;
+        background-color: rgba(47, 43, 43, 0.943);
+        border: 1px solid #d3d3d3;
+        margin:10px;
+        &:hover {
+            background-color: rgba(118, 114, 114, 0.943);
+        }
+        &--img {
+        align-items: center;
+        max-width: 100px;
+        margin: auto;
+        }
+    }
+        // .tags-container {
+        //     margin: auto;
+        //     display:flex;
+        //     flex-direction: row;
+        //     flex-wrap:wrap;
+          
+        //     .tag {
+        //         font-size:32px;
+        //         border: 1px solid black;
+        //         padding: 5px;
+        //         white-space: nowrap;
+        //         height:fit-content;
+        //     }
+        // }
+}
